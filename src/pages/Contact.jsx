@@ -37,9 +37,9 @@ export default function Contact({ showToast }) {
             <div>
               <div style={{ fontFamily: 'var(--font-display)', fontSize: 22, marginBottom: '1.5rem' }}>Get in Touch</div>
               {[
-                { icon: '📍', label: 'Office Address', value: '42 Travel House, MG Road, Bhopal, Madhya Pradesh 462001' },
-                { icon: '📞', label: 'Phone / WhatsApp', value: '+91 98765 43210' },
-                { icon: '✉️', label: 'Email', value: 'hello@paryatak.in' },
+                { icon: '📍', label: 'Office Address', value: 'Ward no.7  Radhika Colony Airport Road Khajuraho Distt, Chhatarpur Madhya Pradesh India 471606' },
+                { icon: '📞', label: 'Phone / WhatsApp', value: '+91 8109085766,+91 755085766' },
+                { icon: '✉️', label: 'Email', value: 'tourmaharajatravel@gmail.com' },
                 { icon: '🕐', label: 'Working Hours', value: 'Monday–Saturday, 9:00 AM – 7:00 PM IST' },
               ].map(item => (
                 <div key={item.label} className="contact-info-item">

@@ -1,10 +1,8 @@
 import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 const team = [
-  { name: 'Aarav Mehta', role: 'Founder & CEO', initials: 'AM', color: '#d4edda', desc: '15 years crafting luxury itineraries across 60+ countries.' },
-  { name: 'Priya Nair', role: 'Head of Experiences', initials: 'PN', color: '#d6eaf8', desc: 'Former travel journalist turned experience designer.' },
-  { name: 'Rohan Desai', role: 'Lead Travel Curator', initials: 'RD', color: '#fef3cd', desc: 'Specialist in offbeat destinations and adventure travel.' },
-  { name: 'Sneha Kapoor', role: 'Customer Experience', initials: 'SK', color: '#fce4ec', desc: 'Ensures every traveller feels taken care of, 24/7.' },
+  { name: 'Pawan Gautam', role: 'Founder & CEO', initials: 'AM', color: '#d4edda', desc: '15 years crafting luxury itineraries across 60+ countries.' },
+  
 ]
 
 const stats = [
@@ -29,7 +27,7 @@ const milestones = [
   { year: '2016', title: '1,000 Travellers', desc: 'Crossed our first major milestone with a 4.8★ average rating.' },
   { year: '2019', title: 'Pan-India Expansion', desc: 'Opened offices in Mumbai, Delhi and Bangalore.' },
   { year: '2022', title: '10,000 Happy Travellers', desc: 'Featured in Times Travel and Condé Nast Traveller India.' },
-  { year: '2025', title: 'Paryatak 2.0', desc: 'Relaunched with curated luxury experiences and a fully digital booking experience.' },
+  { year: '2025', title: 'Maharaja Tour and Travels 2.0', desc: 'Relaunched with curated luxury experiences and a fully digital booking experience.' },
 ]
 
 export default function About({ setActivePage }) {
@@ -54,7 +52,7 @@ export default function About({ setActivePage }) {
       We Believe Travel <em style={{ color: 'var(--accent)', fontStyle: 'italic' }}>Changes Lives</em>
     </h1>
     <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 17, fontWeight: 300, maxWidth: 520, lineHeight: 1.8, marginBottom: '2.5rem' }}>
-      Paryatak was born from a simple belief — that everyone deserves to experience the wonder of this world. Since 2010, we've been turning that belief into unforgettable journeys.
+      Maharaja Tour and Travels was born from a simple belief — that everyone deserves to experience the wonder of this world. Since 2010, we've been turning that belief into unforgettable journeys.
     </p>
     <button className="btn-accent" onClick={() => setActivePage('Contact')}>
       Plan Your Trip ✈
@@ -86,7 +84,7 @@ export default function About({ setActivePage }) {
                 More Than a <em>Travel Agency</em>
               </div>
               <p style={{ color: 'var(--text-muted)', fontSize: 15, lineHeight: 1.9, marginBottom: '1rem' }}>
-                Paryatak is a Bhopal-born travel company that has grown into one of India's most trusted boutique travel brands. We specialise in handcrafted itineraries — not mass-market packages — for travellers who want something more meaningful.
+                Maharaja Tour and Travels is a Bhopal-born travel company that has grown into one of India's most trusted boutique travel brands. We specialise in handcrafted itineraries — not mass-market packages — for travellers who want something more meaningful.
               </p>
               <p style={{ color: 'var(--text-muted)', fontSize: 15, lineHeight: 1.9, marginBottom: '2rem' }}>
                 Every trip we design starts with a conversation. We listen, we understand, and then we build an experience around you — not the other way around.
@@ -163,10 +161,10 @@ export default function About({ setActivePage }) {
       <section className="section-sm" style={{ background: 'var(--surface2)' }}>
         <div className="container">
           <div className="section-header">
-            <div className="section-eyebrow">The People Behind Paryatak</div>
+            <div className="section-eyebrow">The People Behind Maharaja Tour and Travels</div>
             <div className="section-title">Meet the <em>Team</em></div>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '1.5rem' }}>
+          <div style={{ display: 'flex', gap: '1.5rem',justifyContent: 'center', alignItems:'center' }}>
             {team.map(t => (
               <div key={t.name} className="testi-card" style={{ textAlign: 'center', padding: '2rem 1.5rem' }}>
                 <div style={{

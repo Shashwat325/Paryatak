@@ -5,7 +5,7 @@ export default function Footer({ setActivePage }) {
       <div className="container">
         <div className="footer-grid">
           <div>
-            <div className="footer-logo">Paryatak</div>
+            <div className="footer-logo">Maharaja Tour and Travels</div>
             <p className="footer-desc">Curating unforgettable journeys to the world's most breathtaking destinations since 2010.</p>
             <div style={{ marginTop: '1.25rem', display: 'flex', gap: '0.75rem' }}>
               {[
@@ -39,9 +39,9 @@ export default function Footer({ setActivePage }) {
           </div>
           <div>
             <div className="footer-col-title">Contact</div>
-            <span className="footer-link"> MG Road, Bhopal</span>
-            <span className="footer-link"> +91 98765 43210</span>
-            <span className="footer-link"> hello@paryatak.in</span>
+            <span className="footer-link">Ward no.7  Radhika Colony Airport Road Khajuraho Distt, Chhatarpur Madhya Pradesh India 471606</span>
+            <span className="footer-link"> +91 8109085766,+91 755085766</span>
+            <span className="footer-link"> <a href="tourmaharajatravel@gmail.com">tourmaharajatravel@gmail.com</a></span>
             <span className="footer-link"> Mon–Sat, 9AM–7PM</span>
           </div>
         </div>
